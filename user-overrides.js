@@ -306,6 +306,20 @@ user_pref("_user.js.parrot", "5500 syntax error: this is an ex-parrot!");
  * When set to a valid, working value that matches your "network.trr.uri" (0712) Firefox
  * won't use the system DNS. If the IP doesn't match then DoH won't work ***/
    // user_pref("network.trr.bootstrapAddr", "10.0.0.1"); // [HIDDEN PREF]
+/* 5590: Anti-AI-Features as suggested by Tiagoquix ***/
+user_pref("browser.ml.enable", false);
+user_pref("browser.ml.chat.enabled", false);
+user_pref("browser.ml.chat.page", false);
+user_pref("extensions.ml.enabled", false);
+user_pref("browser.tabs.group.smart.enabled", false);
+user_pref("browser.tabs.groups.smart.userEnabled", false);
+user_pref("browser.urlbar.quicksuggest.mlEnabled", false);
+user_pref("places.semanticHistory.featureGate", false);
+user_pref("pdfjs.enableAltText", false);
+user_pref("pdfjs.enableAltTextForEnglish", false);
+user_pref("pdfjs.enableGuessAltText", false);
+user_pref("pdfjs.enableAltTextModelDownload", false);
+
 
 /* END: internal custom pref to test for syntax errors ***/
 user_pref("_user.js.parrot", "SUCCESS: No no he's not dead, he's, he's restin'!");
