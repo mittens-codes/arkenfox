@@ -128,7 +128,7 @@ user_pref("privacy.clearSiteData.cookiesAndStorage", true); // keep false until 
 user_pref("privacy.clearSiteData.historyFormDataAndDownloads", true);
    // user_pref("privacy.clearSiteData.siteSettings", false);
 /* 2821: set manual "Clear Data" items [FF136+] ***/
-user_pref("privacy.clearSiteData.browsingHistoryAndDownloads", false);
+user_pref("privacy.clearSiteData.browsingHistoryAndDownloads", true);
 user_pref("privacy.clearSiteData.formdata", true);
 
 /** SANITIZE HISTORY: IGNORES "ALLOW" SITE EXCEPTIONS ***/
